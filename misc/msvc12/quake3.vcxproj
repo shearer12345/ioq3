@@ -1837,7 +1837,6 @@
     <ClInclude Include="..\..\code\renderercommon\tr_public.h" />
     <ClInclude Include="..\..\code\renderercommon\tr_types.h" />
     <ClInclude Include="..\..\code\renderergl1\tr_local.h" />
-    <ClInclude Include="..\..\code\ui\keycodes.h" />
     <ClInclude Include="..\..\code\client\keys.h" />
     <ClInclude Include="..\..\code\qcommon\puff.h" />
     <ClInclude Include="..\..\code\qcommon\q_shared.h" />
