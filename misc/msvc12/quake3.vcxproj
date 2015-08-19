@@ -222,7 +222,7 @@
     </Link>
     <PostBuildEvent>
       <Message>copy SDL2.dll</Message>
-      <Command>xcopy /Y /S "$(SolutionDir)..\..\code\libs\win32\SDL2.dll" "$(TargetDir)"</Command>
+      <Command>xcopy /Y /S /d "$(SolutionDir)..\..\code\libs\win32\SDL2.dll" "$(TargetDir)"</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release TA|x64'">
@@ -334,7 +334,7 @@
     </Link>
     <PostBuildEvent>
       <Message>copy SDL2.dll</Message>
-      <Command>xcopy /Y /S "$(SolutionDir)..\..\code\libs\win32\SDL2.dll" "$(TargetDir)"</Command>
+      <Command>xcopy /Y /S /d "$(SolutionDir)..\..\code\libs\win32\SDL2.dll" "$(TargetDir)"</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -445,7 +445,7 @@
       <AdditionalLibraryDirectories>C:\Users\shearer\code\ioq3\code\libs\win32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
     <PostBuildEvent>
-      <Command>xcopy /Y /S "$(SolutionDir)..\..\code\libs\win32\SDL2.dll" "$(TargetDir)"</Command>
+      <Command>xcopy /Y /S /d "$(SolutionDir)..\..\code\libs\win32\SDL2.dll" "$(TargetDir)"</Command>
       <Message>copy SDL2.dll</Message>
     </PostBuildEvent>
   </ItemDefinitionGroup>
@@ -553,7 +553,7 @@
     </Link>
     <PostBuildEvent>
       <Message>copy SDL2.dll</Message>
-      <Command>xcopy /Y /S "$(SolutionDir)..\..\code\libs\win32\SDL2.dll" "$(TargetDir)"</Command>
+      <Command>xcopy /Y /S /d "$(SolutionDir)..\..\code\libs\win32\SDL2.dll" "$(TargetDir)"</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug TA|x64'">
